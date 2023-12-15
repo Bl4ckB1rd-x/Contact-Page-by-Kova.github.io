@@ -321,6 +321,6 @@ input[type="email"] {
 
     .box {
         width: 95%; 
-        padding: 15px;  /* Ajusta el margen superior */
+        padding: 15px;
     }
 }
