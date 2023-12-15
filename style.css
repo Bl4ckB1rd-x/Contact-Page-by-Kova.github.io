@@ -13,22 +13,26 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: -15px;
 }
 
 .tittle-1 {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 64px;
     text-align: center;
+    vertical-align: top;
     width: 656px; 
-    color: #F8FAFC;
+    color: white;
 }
 
 .tittle-2 {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 32px;
+    margin-top: -30px;
     text-align: center;
+    vertical-align: top;
     width: 656px; 
-    color: #F8FAFC;
+    color: white;
 }
 
 .box {
@@ -39,7 +43,7 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
     width: 800px;
     padding: 30px;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 .box div {
@@ -301,23 +305,18 @@ input[type="email"] {
 
 }
 
-
-
-/* Estilos para dispositivos móviles */
 @media screen and (max-width: 480px) {
     .tittle-1 {
-        font-size: 32px; /* Cambia el tamaño del título */
+        font-size: 32px; 
     }
 
     .tittle-2 {
-        font-size: 20px; /* Cambia el tamaño del subtítulo */
+        font-size: 20px; 
     }
 
     .box {
-        width: 95%; /* Cambia el ancho del contenedor */
-        padding: 15px; /* Ajusta el relleno */
-        margin-top: 30px; /* Ajusta el margen superior */
+        width: 95%;
+        padding: 15px; 
+        margin-top: 30px; 
     }
-
-    /* Otros estilos específicos que desees ajustar */
 }
