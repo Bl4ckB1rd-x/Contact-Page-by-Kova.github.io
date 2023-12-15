@@ -110,7 +110,7 @@ body {
     width: calc(100% - 20px);
     padding: 8px;
     border-radius: 15px;
-    border: 1px solid #white;
+    border: 1px solid white;
     box-sizing: border-box;
     height: 65px;
     width: 350px;
@@ -136,7 +136,7 @@ body {
     width: calc(100% - 20px);
     padding: 8px;
     border-radius: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     box-sizing: border-box;
     height: 68px;
     width: 390px;
@@ -157,7 +157,7 @@ body {
     width: calc(100% - 20px);
     padding: 8px;
     border-radius: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     box-sizing: border-box;
     height: 68px;
     width: 390px;
